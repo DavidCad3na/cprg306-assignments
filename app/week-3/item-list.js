@@ -80,7 +80,7 @@ const item12 = {
   ];
 
 return (
-    <ul className="column sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 ">
+    <ul className="column capitalize sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 ">
       {items.map((item, index) => (
         <Item
           key={index}

@@ -5,11 +5,7 @@ export default function Page() {
     <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <Link href="/week-2" target="_blank">
         Week-2
-      </Link>
-      <br />
-      <Link href="/week-3" target="_blank">
-        Week-3
-      </Link>
+      </Link> <Link href="/week-3" target="_blank"> Week-3</Link>
       </main>
   );
 }
