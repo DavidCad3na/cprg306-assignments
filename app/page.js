@@ -5,7 +5,8 @@ export default function Page() {
     <h1>CPRG 306: Web Development 2 - Assignments</h1>
        Go to <Link href="/week-2" target="_blank"> Week-2 </Link>{'->'}
        Go to <Link href="/week-3" target="_blank">Week-3</Link>{'->'}
-       Go to <Link href="/week-4" target="_blank">Week-4</Link>
+       Go to <Link href="/week-4" target="_blank">Week-4</Link>{'->'}
+       Go to <Link href="/week-5" target="_blank">Week-5</Link>
       </main>
   );
 }
