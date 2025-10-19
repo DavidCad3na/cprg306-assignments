@@ -6,7 +6,8 @@ export default function Page() {
        Go to <Link href="/week-2" target="_blank"> Week-2 </Link>{'->'}
        Go to <Link href="/week-3" target="_blank">Week-3</Link>{'->'}
        Go to <Link href="/week-4" target="_blank">Week-4</Link>{'->'}
-       Go to <Link href="/week-5" target="_blank">Week-5</Link>
+       Go to <Link href="/week-5" target="_blank">Week-5</Link>{'->'}
+       Go to <Link href="/week-6" target="_blank">Week-6</Link>
       </main>
   );
 }
