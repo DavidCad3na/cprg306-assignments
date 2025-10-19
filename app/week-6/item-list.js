@@ -33,7 +33,7 @@ export default function ItemList() {
         </button>
       </div>
 
-      <ul className="space-y-2">
+      <ul>
         {sortedItems.map((item) => (
           <Item
             key={item.id}
