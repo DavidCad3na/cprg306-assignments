@@ -30,13 +30,9 @@ function cleanName(name) {
     <main className="grid grid-cols-1 min-h-screen bg-black p-8">
       <h1 className="text-3xl font-bold mb-6">Shopping List</h1>
       <div className="grid grid-cols-1 min-h-screen bg-black p-8">
-        <section className="bg-gray-800 p-4 rounded-lg shadow-md text-white">
         <NewItem onAddItem={handleAddItem} />
         <ItemList items={items} onSelect={handleSelect} />
-        </section>
-        <div>
         <MealIdeas ingredient={selectedIngredient} />
-        </div>
       </div>
     </main>
   );
